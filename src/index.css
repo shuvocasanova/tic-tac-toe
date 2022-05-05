@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,6 +10,126 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+body{
+  font-family: 'Roboto',
+  sans-serif;
+}
+
+.app-header{
+  font-family: 'Roboto',
+  sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: #393c40;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-text {
+  color: white;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+}
+
+.square {
+  min-width: 100px;
+  min-height: 100px;
+  font-size: 64px;
+  text-align: center;
+  color: #1CDBF5;
+  font-weight: bolder;
+  padding: 30px;
+}
+
+.fc-aqua {
+  color: #1CDBF5;
+}
+
+.fc-white {
+  color: white;
+}
+
+.fw-600 {
+  font-weight: bolder;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.b-bottom-right {
+  border-right: 15px solid #1CDBF5;
+  border-bottom: 15px solid #1CDBF5;
+}
+
+.b-bottom {
+  border-bottom: 15px solid #1CDBF5;
+}
+
+.b-right {
+  border-right: 15px solid #1CDBF5;
+}
+
+.clear-button {
+  width: max-content;
+  margin: 40px auto 10px auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .heading-text {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 60px 10px;
+  }
+
+  .square {
+    min-width: 80px;
+    min-height: 80px;
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .b-bottom-right {
+    border-right: 10px solid #1CDBF5;
+    border-bottom: 10px solid #1CDBF5;
+  }
+
+  .b-bottom {
+    border-bottom: 10px solid #1CDBF5;
+  }
+
+  .b-right {
+    border-right: 10px solid #1CDBF5;
+  }
+
+  .clear-button {
+    width: max-content;
+    margin: 40px auto 10px auto;
+  }
 }
